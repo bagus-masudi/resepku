@@ -1,0 +1,110 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Ubuntu", serif;
+    background-color: $primary_bg;
+}
+
+.navbar{
+    background-color: #547794;
+
+    .navbar-brand{
+        font-size: 36px;
+        color: #F6F3EE;
+    }
+
+    .nav-item{
+        a {
+            font-size: 18px;
+            color: #F6F3EE;
+        }
+    }
+    
+    .btn-logout{
+        font-size: 18px;
+        color: #F6F3EE;
+    }
+}
+
+.card {
+    width: 85%;
+    .like {
+        color: #666666;
+        font-weight: map-get($fonts_weight, regular);
+        font-size: 16px;
+    }
+
+    .title{
+        color: $accen;
+        font-weight: map-get($fonts_weight, medium);
+        font-size: 25px;
+    }
+
+    .deskripsi{
+        font-weight: map-get($fonts_weight, regular);
+        font-size: 18px;
+        color: #000000;
+    }
+
+    a {
+        background-color: $button_color;
+        color: #000000;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: map-get($fonts_weight, regular);
+    }
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #C4C4C4;
+    color: #000000;
+    font-size: 17px;
+}
+
+.content {
+    .card{
+        .btn-regist2{
+            font-size: 15px;
+            padding: 10px 25px;
+            margin-left: 155px;
+        }
+    }
+}
+
+.rowresep{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tresep {
+    margin-left: 170px;
+    .title{
+        font-weight: map-get($fonts_weight, medium);
+        font-size: 24px;
+    }
+
+    .title2{
+        font-weight: map-get($fonts_weight, medium);
+        font-size: 20px;
+        color: $accen;
+    }
+
+    label{
+        font-weight: map-get($fonts_weight , regular);
+        font-size: 17px;
+    }
+
+    .btn-submit{
+        font-size: 18px;
+        background-color: $accen;
+        color: #fff;
+        padding: 9px 480px;
+    }
+}
+

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Ubuntu", serif;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #547794;
+}
+.navbar .navbar-brand {
+  font-size: 36px;
+  color: #F6F3EE;
+}
+.navbar .nav-item a {
+  font-size: 18px;
+  color: #F6F3EE;
+}
+.navbar .btn-logout {
+  font-size: 18px;
+  color: #F6F3EE;
+}
+
+.card {
+  width: 85%;
+}
+.card .like {
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+}
+.card .title {
+  color: #547794;
+  font-weight: 500;
+  font-size: 25px;
+}
+.card .deskripsi {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.card a {
+  background-color: #C2C9CD;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #C4C4C4;
+  color: #000000;
+  font-size: 17px;
+}
+
+.content .card .btn-regist2 {
+  font-size: 15px;
+  padding: 10px 25px;
+  margin-left: 155px;
+}
+
+.rowresep {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tresep {
+  margin-left: 170px;
+}
+.tresep .title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.tresep .title2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #547794;
+}
+.tresep label {
+  font-weight: 400;
+  font-size: 17px;
+}
+.tresep .btn-submit {
+  font-size: 18px;
+  background-color: #547794;
+  color: #fff;
+  padding: 9px 480px;
+}/*# sourceMappingURL=main.css.map */
