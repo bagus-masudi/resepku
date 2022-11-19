@@ -38,19 +38,13 @@
     php artisan migrate
     ```
 
-7. Run Seeder
-
-    ```bash
-    php artisan db:seed
-    ```
-
-8. To make uploaded files accessible from the web, you should create a symbolic link from public/storage to storage/app/public.
+7. To make uploaded files accessible from the web, you should create a symbolic link from public/storage to storage/app/public.
 
     ```bash
     php artisan storage:link
     ```
 
-9. Run Laravel server
+8. Run Laravel server
 
     ```bash
     php artisan serve
