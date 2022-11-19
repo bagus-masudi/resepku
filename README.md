@@ -1,10 +1,13 @@
-# Project Experiment Laravel
+# Project Resepku Laravel
 
 ## Usage
 - Prerequisites
     - Code Editor / IDE
     - PHP [Composer](https://getcomposer.org/download/)
     - Terminal
+
+### Database Design
+![img](/public/images/erd.png)
 
 ## Installation
 
