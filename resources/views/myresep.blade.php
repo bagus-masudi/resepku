@@ -14,7 +14,7 @@
             <div class="card border-0">
               <img src="{{asset('images')}}/{{$recipes->photo}}" alt="">
               <p class="like m-0 mt-1">2 Orang Menyukai ini</p>
-              <a class="title m-0 mt-1 bg-light p-0" href="{{route('detail' , '2')}}">{{$recipes->title}}</a>
+              <a class="title m-0 mt-1 bg-light p-0" href="{{route('detail' , $recipes->id)}}">{{$recipes->title}}</a>
               <p class="deskripsi m-0 mt-1">{{$recipes->description}}</p>
               <a href="#" class="btn-first text-center mt-3">Suka</a>
             </div>

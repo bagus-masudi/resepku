@@ -11,7 +11,7 @@
   
   <link rel="stylesheet" href="{{asset('bootstrap/dist/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{asset('style/main.css')}}">
-  <title>Homepage | Resepku</title>
+  <title>Resepku</title>
 </head>
 
 <body>

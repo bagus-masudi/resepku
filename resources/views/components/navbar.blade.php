@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#">Resepku</a>
+      <a class="navbar-brand" href="{{route('home')}}">Resepku</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,9 +13,10 @@
           <li class="nav-item">
             <a class="nav-link" href="{{route('create')}}">Tulis Resep</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{route('logout')}}">Logout</a>
-          </li>
+          <form action="{{ route('logout') }}" method="POST">
+            @csrf
+              <button class="btn btn-logout" type="submit">Logout</button>
+          </form>
           @else
           <li class="nav-item">
             <a class="nav-link" href="{{route('login')}}">Login</a>
@@ -23,6 +24,7 @@
           <li class="nav-item">
             <a class="nav-link" href="{{route('register')}}">Register</a>
           </li>
+          
           @endif
         </ul>
       </div>

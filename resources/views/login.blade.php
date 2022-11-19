@@ -23,7 +23,9 @@
                             <label for="" class="form-label">Password</label>
                             <input type="password" name="password" class="form-control">
                         </div>
-                        <button class="btn btn-primary">Login</button>
+                        <div class="text-center">
+                            <button class="btn btn-primary mt-4">Login</button>
+                        </div>
                     </form>
                     </div>
                 </div>
