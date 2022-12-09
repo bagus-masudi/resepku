@@ -13,7 +13,7 @@
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/harisfi/experiment-lv.git
+    git clone https://github.com/bagus-masudi/resepku,git
     ```
 
 2. Use the package manager [composer](https://getcomposer.org/download/) to install vendor.
