@@ -26,6 +26,8 @@ Route::post('/register', [AuthController::class, 'registerStore'])->name('regist
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', [HomeController::class, 'index'])->name('home');
 
+    Route::post('/home', [HomeController::class, 'likeStore'])->name('likePost');
+
     Route::get('/myresep', [HomeController::class, 'show'])->name('show');
 
     Route::get('/create', [HomeController::class, 'create'])->name('create');
